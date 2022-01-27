@@ -6,8 +6,6 @@ class Board:
     def addmessage(self):
         message = input("add message")
         self.sugmin.append(message)
-        
-
 
 def main():
     Board_1 = Board("XOXO")
